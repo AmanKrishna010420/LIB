@@ -10,13 +10,13 @@
     <header class="header">
     <nav>
     <ul class="navr">
-        <li><a class="BB" href="#">Book Borrow</a></li>
-        <li><a class="Elb"href="#">E-Library</a></li>
+        <li><a class="BB" href="Book Borrow.html">Book Borrow</a></li>
+        <li><a class="Elb" href="elib.html">E-Library</a></li>
     </ul>
     <img class="Logo" src="output_image-removebg-preview.png">
     <ul class="navl">
         <li><a class="BR" href="#">Book Reviews</a></li>
-        <li><button class="dash" type="button"></button></li>
+        <li><button class="dash" type="button" onclick="redir()"></button></li>
     </ul>
     <span></span>
     </nav>    
@@ -36,4 +36,9 @@
             </div>
         </div>
     </div>
+    <script>
+        function redir(){
+            window.location.href="Dashboard.html";
+        }
+    </script>
 </html>
