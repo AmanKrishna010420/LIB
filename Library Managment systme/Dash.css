@@ -126,25 +126,28 @@ ul {
     body {
         background-color: black;
         margin: 0px;
+        color:wheat;
     }
 
     .details{
         margin-top: 13px;
         border:20px solid  white;
         height: 300px;
+        width: 850px;
     }
     .RB{
         border:20px solid  white;   
         position: absolute;
         top:63%;
-        height: 180px;
-        width: 1500px;
+        height: 230px;
+        width: 750px;
         left: -0.3%;
     }
     .RB div{
         display: flex;
-        flex-direction: column;
+        flex-direction:row;
         text-align: center;
+        justify-content: space-around;
     }
 
     .Image{
@@ -156,7 +159,7 @@ ul {
         left: 40px;
     }
     .Details{
-        position: relative;
+        position:absolute;
         left: 30%;
     }
     .Details div{
@@ -168,4 +171,21 @@ ul {
         width: 350px;
         height: 20px;
         border-radius: 2px;
+    }
+    .B1{
+        position:relative;
+        top:40px;
+        right:202px;  
+    }
+    .B2{
+        position:absolute;
+        top:75px;
+        right:299px; 
+
+    }
+    .B3{
+        position:absolute;
+        top:78px;
+        right:70px; 
+        z-index: -1; 
     }
